@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Portfolio: Cindy Lu</title>
+<link rel="stylesheet" type="text/css" href="finalss.css">
+</head>
+
+<body>
+  <br>
+<h1>My Portfolio</h1>
+<hr>
+<center>
+<table width="1200px">
+  <tr>
+    <td width="300px"><img src="images/smile.jpg" alt="Cindy Lu Profile Picture" align="left" height="300px"/></td>
+    <td width="800px"><p><h2>I am Cindy Lu</h2><br>Cindy is a student at the University of Pittsbugrh majoring in Biological Sciences, intending to aply to the Univeristy of Pittsburgh Pharmacy School in 2022.</p><br><center><img src="images/pharmacy.png" alt="School of Pharmacy Logo" height="100px"/></center></td>
+    <td width="200px"><img src="images/frontcathy.png" height="300px" align="left"
+  </tr>
+  <tr>
+    <td colspan="3" width="1200px"><br></td>
+  </tr>
+  <tr>
+    <td width="300px"><h2>Links and Resources</h2>
+      <ul>
+        <li><a href="documents/resume.pdf">Resume</a></li>
+        <li><a href="documents/personal essay.pdf">Personal Narrative</a></li>
+      <li>Lab Work</li>
+      <ul>
+        <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vQxOiwupuzAO7Trrm3fd8FOib7KUvx2WjQ1tV7LIS9LFYss8Q4OSz7k5zWbrP3EvTQx9TGMhOQgmxsa/pub?start=false&loop=false&delayms=10000"> Biology Lab 1: Duckweed Investigation</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1Em7dnmCtzJA-rTPQrdmRCWNahQEnTCWgi3TqGWlN2Wo/edit?usp=sharing">Biology Lab 2: DNA Regulation (In progress)</a></li>
+      </ul>
+      <li>Class Projects</li>
+      <ul>
+        <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vQQq4KOy8xOH5hpmLO2KPLbAEQgSPOVJwlGwYycZF5GW-KMQ07EDYjnK1AIWgCFl_WkXLGsM7gFK2GR/pub?start=false&loop=false&delayms=10000">Orilissa Reserach Project</a></li>
+        <li><a href="documents/folicacid.pdf">Drug Investigation: Folic Acid</a></li>
+        <li><a href="documents/Paper.pdf">Children in Clinical Trials Ethical Discussion</a></li>
+      </ul>
+
+    </td>
+    <td colspan="2" rowspan="2" align="left">
+      <h2>About Me<h2>
+      <br>
+      <h3>Interests and Hobbies</h3><p>I enjoy attending badminton club at Pitt with my friends and playing basketball with my family. In my free time I emjoy journaling and scrapbooking, doing my nails, baking, and crocheting.</p>
+      <h3>Business</h3><p>Expanding on my hobbies, I opened a small Esty shop during the pandemic. I wsas able to make 14 sales between stickers and crochet products. As of right now, the shop has gone on hiatus.</p><p>Etsy Link: <a href="https://etsy.me/2XRtG7m?fbclid=PAAaY271Aa1P55PXZxWjh-6Zh6Q80cIwmmtriYVin1QEHKXf-Y0IC4G7psWzE">etsy.com/DinoDD</a></p>
+      <h3>Family</h3><p>I am from Paoli, Pennsylvania, just outside of Philadelphia. My family consists of my mom, my dad, my two brothers (ages 17 and 14), my grandmother, and my dog, Bubble.</p>
+      <h3>Future Plans</h3><p>I would pursue a career as a pharmacist or clinical pharmacist. I have enjoyed my time interning and working with a pharmacy at home and have always had an interest about how the action of medication in the body work to aid patients in their lives. I was able to gain a deeper understanding of the medications that my grandmother take and through continuous work with Paoli pharmacy, I have further appreciated their commitment to the community.</p><hr>
+      <br>
+      <table border="0" cellpadding="0" align="center">
+        <caption><strong>Photo Gallery</strong></caption>
+        <tr>
+          <td width="100%"><img src="images/nosmile.jpg" width="300px" name="photoslider"></td>
+        </tr>
+        <tr>
+          <td width="100%"><form method="POST" name="rotater">
+            <div align="center"><center><p><script language="JavaScript1.1">
+      var photos=new Array()
+      var which=0
+
+      /*Change the below variables to reference your own images. You may have as many images in the slider as you wish*/
+      photos[0]="images/nosmile.jpg"
+      photos[1]="images/sidecathy.jpg"
+      photos[2]="images/bear.jpg"
+      photos[3]="images/grad.jpg"
+      photos[4]="images/fam.jpg"
+      photos[5]="images/smile.jpg"
+
+
+      function backward(){
+      if (which>0){
+      window.status=''
+      which--
+      document.images.photoslider.src=photos[which]
+      }
+      }
+
+      function forward(){
+      if (which<photos.length-1){
+      which++
+      document.images.photoslider.src=photos[which]
+      }
+      else window.status='End of gallery'
+      }
+      </script><input type="button" value="&lt;&lt;Back" name="B2"
+            onClick="backward()"> <input type="button" value="Next&gt;&gt;" name="B1"
+            onClick="forward()"><br>
+            <a href="#" onClick="which=1;();return false"><small>Start Over</small></a></p>
+            </center></div>
+          </form>
+          </td>
+        </tr>
+      </table>
+
+      <p align="center"><font face="arial" size="-2">This free script provided by</font><br>
+      <font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+      Kit</a></font></p>
+
+  <tr>
+    <td width="300px">
+      <h2>Contact</h2>
+      <center>
+        <p>Email: cil14@pitt.edu<br>Phone: (610) 457-2988</p>
+
+        <form
+           action="mailto:cil14@pitt.edu"
+           method="post"
+           enctype="multi-part/form-data">
+
+        Your name:
+           <input type="text" name="name" size="30" maxlength="100" alt="name"/>
+        <br/>
+        <br/>
+        E-Mail address:
+           <input type="text" name="Email" size="30" maxlength="100" alt="email"/>
+          <br>
+        Phone Number:
+            <input type="text" name="Email" size="30" maxlength="100" alt="phone number"/>
+          <br><br>
+        Which contact method is preferred?<br>
+           <input type=radio name="New" value="E" alt="use1" /> Email
+           <input type=radio name="use" value="P" alt="use2" /> Phone
+           <br/>
+
+        <br>
+        Attachments:
+        <br><br>
+         <input
+           type="file"
+           name="attachment"
+           alt="attachments"/>
+         <input
+           type="submit"
+           value="Send the File"
+           alt="submission"/>
+        <br><br>
+        Message:
+        <input
+          type="text"
+          name="Message"
+          size="50"
+          alt="Your Message?"
+          title="Your Message"/>
+        <br><br>
+
+        <input type="reset" value="Clear Selections" alt="reset">
+        <input  type="submit" value="Send" alt="request"/>
+      </form>
+    </center>
+  </td>
+
+</table>
+
+
+</body>
+
+</html>

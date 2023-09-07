@@ -1,0 +1,30 @@
+html{
+    font-family:"Georgia", serif;
+}
+body{
+    background-color: #FFF6EC;
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    color: #890101 ;
+    text-align: center;
+}
+h2{
+    color: #890101 ;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: #890101 ;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: strong;
+}
+p{
+    color: #310000 ;
+}
+
+
+}
